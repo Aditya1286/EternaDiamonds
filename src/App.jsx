@@ -11,7 +11,7 @@ export default function App() {
       subtitle: "BRIDAL COLLECTION",
       description: "Where love meets luxury",
       cta: "Explore Collection",
-      image: "bg-[url('./publix/im1.webp')]", // Placeholder; replace with actual bridal image URL later
+      image: "bg-[url('./publix/im1.png')]", // Placeholder; replace with actual bridal image URL later
       accent: "from-rose-600 to-pink-600"
     },
     {
@@ -19,7 +19,7 @@ export default function App() {
       subtitle: "DIAMOND COLLECTION 2024",
       description: "Discover the brilliance of forever",
       cta: "Shop Now",
-      image: "bg-[url('./publix/im2.webp')]", // Placeholder
+      image: "bg-[url('./publix/im2.png')]", // Placeholder
       accent: "from-amber-600 to-amber-700"
     },
     {
@@ -27,7 +27,7 @@ export default function App() {
       subtitle: "SOLITAIRE DIAMONDS",
       description: "Pure. Precious. Priceless.",
       cta: "Book Appointment",
-      image: "bg-[url('./publix/im3.webp')]", // Placeholder
+      image: "bg-[url('./publix/im3.png')]", // Placeholder
       accent: "from-blue-600 to-indigo-600"
     }
   ];
@@ -47,23 +47,23 @@ export default function App() {
   ];
 
   const categories = [
-    { name: "Earrings", image: "bg-[url('./publix/ear.webp')]", link: "/shop/earrings" },
-    { name: "Finger Rings", image: "bg-[url('./publix/finger.webp')]", link: "/shop/rings" },
-    { name: "Pendants", image: "bg-[url('./publix/pen.webp')]", link: "/shop/pendants" },
-    { name: "Mangalsutra", image: "bg-[url('./publix/man.webp')]", link: "/shop/mangalsutra" },
-    { name: "Bangles", image: "bg-[url('./publix/ban.webp')]", link: "/shop/bangles" },
-    { name: "Chains", image: "bg-[url('./publix/chain.webp')]", link: "/shop/chains" }
+    { name: "Earrings", image: "bg-[url('./publix/ear.png')]", link: "/shop/earrings" },
+    { name: "Finger Rings", image: "bg-[url('./publix/finger.png')]", link: "/shop/rings" },
+    { name: "Pendants", image: "bg-[url('./publix/pen.png')]", link: "/shop/pendants" },
+    { name: "Mangalsutra", image: "bg-[url('./publix/man.png')]", link: "/shop/mangalsutra" },
+    { name: "Bangles", image: "bg-[url('./publix/ban.png')]", link: "/shop/bangles" },
+    { name: "Chains", image: "bg-[url('./publix/chain.png')]", link: "/shop/chains" }
   ];
 
   const trending = [
-    { title: "Auspicious Occasion", subtitle: "A companion for every occasion", image: "bg-[url('./publix/d1.webp')]" },
-    { title: "Gifting Jewellery", subtitle: "Jewellery everyone's eyeing right now", image: "bg-[url('./publix/d2.webp')]" },
-    { title: "Drops of Radiance", subtitle: "A companion for every occasion", image: "bg-[url('./publix/d3.webp')]" }
+    { title: "Auspicious Occasion", subtitle: "A companion for every occasion", image: "bg-[url('./publix/d1.png')]" },
+    { title: "Gifting Jewellery", subtitle: "Jewellery everyone's eyeing right now", image: "bg-[url('./publix/d2.png')]" },
+    { title: "Drops of Radiance", subtitle: "A companion for every occasion", image: "bg-[url('./publix/d3.png')]" }
   ];
 
   const taniWorld = [
-    { title: "Wedding", image: "bg-[url('./publix/e1.webp')]", desc: "Bridal collections" },
-    { title: "Diamond", image: "bg-[url('./publix/e2.webp')]", desc: "Solitaire diamonds" }
+    { title: "Wedding", image: "bg-[url('./publix/e1.png')]", desc: "Bridal collections" },
+    { title: "Diamond", image: "bg-[url('./publix/e2.png')]", desc: "Solitaire diamonds" }
   ];
 
   return (
@@ -195,7 +195,7 @@ export default function App() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             <div className="relative h-64 lg:h-96 bg-gradient-to-br from-amber-50 to-rose-50 rounded-lg overflow-hidden">
-              <div className="absolute inset-0 bg-[url('./publix/c1.webp')]" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} />
+              <div className="absolute inset-0 bg-[url('./publix/c1.png')]" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6 text-white">
                 <h3 className="text-xl font-bold mb-1">Floral Bloom</h3>
                 <p className="text-sm mb-3">Inspired by nature's elegance</p>
@@ -204,7 +204,7 @@ export default function App() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
               <div className="relative h-48 lg:h-48 bg-gradient-to-br from-rose-50 to-pink-50 rounded-lg overflow-hidden">
-                <div className="absolute inset-0 bg-[url('./publix/c2.webp')]" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                <div className="absolute inset-0 bg-[url('./publix/c2.png')]" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent p-4 flex items-end">
                   <div>
                     <h3 className="font-bold text-white mb-1">Festive Edit</h3>
@@ -213,7 +213,7 @@ export default function App() {
                 </div>
               </div>
               <div className="relative h-48 lg:h-48 bg-gradient-to-br from-amber-50 to-orange-50 rounded-lg overflow-hidden">
-                <div className="absolute inset-0 bg-[url('./publix/c3.webp')]" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                <div className="absolute inset-0 bg-[url('./publix/c3.png')]" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent p-4 flex items-end">
                   <div>
                     <h3 className="font-bold text-white mb-1">Stunning Ears</h3>
