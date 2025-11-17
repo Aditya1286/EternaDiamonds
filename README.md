@@ -57,20 +57,20 @@ This viewer serves as a bridge between our diamond inventory and customers, enab
 
 For inquiries about available diamonds or to schedule a viewing:
 
-- **Email**: [your-email@example.com]
-- **Phone**: [your-phone-number]
-- **Address**: [your-business-address]
-- **Business Hours**: [your-business-hours]
+- **Email**: [--------@example.com]
+- **Phone**: [XXXXXXXXXXX]
+- **Address**: [Mandi,India]
+- **Business Hours**: [30+hrs]
 
 ## Support
 
 For technical support or questions about using the viewer:
 - Submit issues through our contact form
-- Email technical support at [support-email@example.com]
+- Email technical support at [aishwaryaaditya2@gmail.com]
 
 ## License
 
-© [Year] [Your Company Name]. All rights reserved.
+© [Year] [Eterna Diamonds]]. All rights reserved.
 
 ---
 
